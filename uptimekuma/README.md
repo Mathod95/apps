@@ -2,5 +2,5 @@
 ### Installation:
 To install this application using the `argocd-autopilot`, assuming you already have gone through the [bootstrap process](https://argocd-autopilot.readthedocs.io/en/latest/Getting-Started/), run the following:
 ```bash
-argocd-autopilot app create upTimeKuma --app github.com/argoproj-labs/argocd-autopilot/examples/demo-app/ -p management
+argocd-autopilot app create uptimekuma --app github.com/Mathod95/apps/uptimekuma/ -p management
 ```
