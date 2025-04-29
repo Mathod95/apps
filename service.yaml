@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: uptime-kuma
+spec:
+  selector:
+    app: uptime-kuma
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 3001
+    nodePort: 30001 # Match the containerPort in your cluster config
+  type: NodePort
